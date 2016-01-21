@@ -6,6 +6,7 @@ $( document ).ready(function() {
 
 
     $("#mybtn").click(leerTexto);
+    $("#pic").click(ocultarTexto);
 });
 
 
@@ -33,4 +34,8 @@ function leerTexto() {
       $("#comida").append("<li>"+ newData[i] +"</li>");
     }
   });
+}
+
+function ocultarTexto() {
+	 $("#comida").hide();
 }
