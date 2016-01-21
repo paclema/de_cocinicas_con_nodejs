@@ -38,4 +38,5 @@ function leerTexto() {
 
 function ocultarTexto() {
 	 $("#comida").hide();
+	 $("body").toggleClass("cambioBG");
 }
