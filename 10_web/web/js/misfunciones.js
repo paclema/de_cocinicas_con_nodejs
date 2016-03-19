@@ -40,3 +40,14 @@ function ocultarTexto() {
 	 $("#comida").hide();
 	 $("body").toggleClass("cambioBG");
 }
+
+
+function drawCanvas(){
+  var canvas = $('#mycanvas')[0];
+
+  var ctx = canvas.getContext('2d');
+  ctx.fillStyle = "rgb(200,0,0)";
+  //x, y, z, w, h
+  cxt.fillRect(10, 10, 15, 50);
+
+}
